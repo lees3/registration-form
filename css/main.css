@@ -1,18 +1,42 @@
 html {
   font-family: "Open Sans", sans-serif;
   color: #000;
-  background-color: #fff;
+  background-color: #f2f2f2;
+}
 
+section {
+  background-color: #fff;
 }
 
 @media only screen and (min-width: 60em) {
 
+  html {
+  border-width: thick;
+  }
+
+  body {
+    max-width: 500px;
+  }
 }
 
 .btn {
   background-color: #f2f2f2;
+  border: none;
+  padding: 0;
 }
 
 .fieldset {
   font-family: "Open Sans", sans-serif;
+}
+
+label {
+  display: block;
+}
+
+h1 {
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: thin;
 }

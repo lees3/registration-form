@@ -11,37 +11,35 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 
-<body class="island">
+<body class="max-length">
 
-  <form class="push-0" method="POST" action="https://formspree.io/lees0029Algonquinlive.com">
+  <section class="pad-t-2 gutter">
+    <h1>Want to go to Mars?</h1>
+    <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
 
-    <h1 class="pad-t">Want to go to Mars?</h1>
+    <form class="push-0" method="POST" action="https://formspree.io/lees0029Algonquinlive.com">
 
-    <div class="unit xs-1 s-1 m-1 l-1">
-      <p class="push-none mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-    </div>
-
-    <div class="unit italics mega pad-t">
+    <div class="unit italic giga push">
       <fieldset>
         <legend><em>Personal details</em></legend>
 
         <div class="grid">
-          <div class="push unit">
+          <div class="push unit xs-1 s-1 m-1 l-1-2">
             <label for="name">Name</label>
             <input id="name" name="name" required>
           </div>
 
-          <div class="push unit">
+          <div class="push unit xs-1 s-1 m-1 l-1-2">
             <label for="number">Age</label>
             <input id="number" name="number" required>
           </div>
 
-          <div class="push unit">
+          <div class="push unit xs-1 s-1 m-1 l-1-2">
             <label for="email">Email</label>
             <input id="email" type="email" name="email" required>
           </div>
 
-          <div class="push unit">
+          <div class="push unit xs-1 s-1 m-1 l-1-2">
             <label for="subject">Physical fitness</label>
             <select id="subject" name="_subject">
               <option>Super-human</option>
@@ -52,7 +50,7 @@
             </select>
           </div>
 
-          <div class="push unit">
+          <div class="push unit wrapper milli push-none">
             <label for="details">Address</label>
             <textarea id="details" name="message" required></textarea>
           </div>
@@ -62,7 +60,7 @@
         <fieldset>
           <legend>Mission statement</legend>
 
-          <div class="push">
+          <div class="push wrapper">
             <label for="text">Why do you want to go to Mars?</label>
             <textarea id="text" name="message" required></textarea>
           </div>
@@ -70,13 +68,12 @@
 
         <div class="btn">
           <button type="submit">Register for the trip!</button>
-          <div>
-            <input type="hidden" name="_subject" value="Request to join the mission">
-          </div>
+
+          <input type="hidden" name="_subject" value="Request to join the mission">
         </div>
       </div>
-
     </div>
   </form>
+</section>
 </body>
 </html>
